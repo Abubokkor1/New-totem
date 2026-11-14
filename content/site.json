@@ -1,1 +1,18 @@
-
+{
+  "brand": "TOTEM SMP",
+  "eyebrow": "YOUR NEXT SURVIVAL ADVENTURE",
+  "headline": "SURVIVE. BUILD.\nCONQUER.",
+  "description": "A world built for players who love adventure, creativity, and unforgettable moments. Join the community and write your story.",
+  "server_ip": "Coming Soon",
+  "server_port": "N/A",
+  "edition": "JAVA & BEDROCK",
+  "version": "COMING SOON",
+  "discord_url": "https://discord.gg/rusgu7pRFq",
+  "discord_title": "YOUR COMMUNITY. YOUR ADVENTURE.",
+  "discord_description": "Meet new friends, get the latest announcements, and be part of the Totem SMP community.",
+  "game_mode": "Survival",
+  "ranks_status": "Coming Soon",
+  "crates_status": "Coming Soon",
+  "announcement": "A NEW ADVENTURE IS WAITING \u2014 STAY TUNED!",
+  "footer_text": "Built for the community. Powered by adventure."
+}
