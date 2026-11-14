@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: Abubokkor1/Website
+  branch: main
+  # GitHub OAuth must be configured for the CMS before first login.
+  # Add your OAuth provider URL as base_url after setup.
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+collections:
+  - name: "site_settings"
+    label: "Website Settings"
+    files:
+      - name: "main_content"
+        label: "Main Website Content"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "Brand Name", name: "brand", widget: "string" }
+          - { label: "Announcement Bar", name: "announcement", widget: "string" }
+          - { label: "Hero Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Hero Headline", name: "headline", widget: "text" }
+          - { label: "Hero Description", name: "description", widget: "text" }
+          - { label: "Server IP Text", name: "server_ip", widget: "string" }
+          - { label: "Server Port Text", name: "server_port", widget: "string" }
+          - { label: "Edition", name: "edition", widget: "string" }
+          - { label: "Version", name: "version", widget: "string" }
+          - { label: "Game Mode", name: "game_mode", widget: "string" }
+          - { label: "Ranks Status", name: "ranks_status", widget: "string" }
+          - { label: "Crates & Keys Status", name: "crates_status", widget: "string" }
+          - { label: "Discord Invite URL", name: "discord_url", widget: "string" }
+          - { label: "Discord Description", name: "discord_description", widget: "text" }
+          - { label: "Footer Text", name: "footer_text", widget: "string" }
